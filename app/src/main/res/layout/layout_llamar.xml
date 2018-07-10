@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <TextView
+        android:id="@+id/txt_culiacan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="@string/c_culiacan"
+        android:textSize="25dp"
+        app:fontFamily="@font/autour_one" />
+    <TextView
+        android:id="@+id/txt_escuinapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="@string/c_escuinapa"
+        app:fontFamily="@font/autour_one"/>
+    <TextView
+        android:id="@+id/txt_mazatlan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="@string/c_mazatlan"
+        app:fontFamily="@font/autour_one"/>
+    <TextView
+        android:id="@+id/txt_mochis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="@string/c_mochis"
+        app:fontFamily="@font/autour_one"/>
+    <TextView
+        android:id="@+id/txt_rosario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="@string/c_rosario"
+        app:fontFamily="@font/autour_one"/>
+    <TextView
+        android:id="@+id/txt_villaunion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="@string/c_villaunion"
+        app:fontFamily="@font/autour_one"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout1"
+            android:orientation="vertical"
+            android:scrollbars="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+            <RadioGroup
+                android:id="@+id/radioCuliacan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <RadioButton
+                    android:id="@+id/tel_cul1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sucursal_cu_1"
+                    android:checked="true" />
+                <TextView
+                    android:id="@+id/txt_tel_cu1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#4f17bf"
+                    android:text="@string/numero_cu_1" />
+                <RadioButton
+                    android:id="@+id/tel_cul2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sucursal_cu_2"
+                    android:checked="false" />
+                <TextView
+                    android:id="@+id/txt_tel_cu2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#4f17bf"
+                    android:text="@string/numero_cu_2" />
+                <RadioButton
+                    android:id="@+id/tel_cul3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sucursal_cu_3"
+                    android:checked="false" />
+                <TextView
+                    android:id="@+id/txt_tel_cu3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#4f17bf"
+                    android:text="@string/numero_cu_3" />
+                <RadioButton
+                    android:id="@+id/tel_cul4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sucursal_cu_4"
+                    android:checked="false" />
+                <TextView
+                    android:id="@+id/txt_tel_cu4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#4f17bf"
+                    android:text="@string/numero_cu_4" />
+                <RadioButton
+                    android:id="@+id/tel_cul5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sucursal_cu_5"
+                    android:checked="false" />
+                <TextView
+                    android:id="@+id/txt_tel_cu5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#4f17bf"
+                    android:text="@string/numero_cu_5" />
+                <RadioButton
+                    android:id="@+id/tel_cul6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sucursal_cu_6"
+                    android:checked="false" />
+                <TextView
+                    android:id="@+id/txt_tel_cu6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#4f17bf"
+                    android:text="@string/numero_cu_6" />
+                <RadioButton
+                    android:id="@+id/tel_cul7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sucursal_cu_7"
+                    android:checked="false" />
+                <TextView
+                    android:id="@+id/txt_tel_cu7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#4f17bf"
+                    android:text="@string/numero_cu_7" />
+                <RadioButton
+                    android:id="@+id/tel_cul8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sucursal_cu_8"
+                    android:checked="false" />
+                <TextView
+                    android:id="@+id/txt_tel_cu8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#4f17bf"
+                    android:text="@string/numero_cu_8" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioEscuinapa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <RadioButton
+                    android:id="@+id/tel_es1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sucursal_es_1"
+                    android:checked="true" />
+                <TextView
+                    android:id="@+id/txt_tel_es1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#4f17bf"
+                    android:text="@string/numero_es_1" />
+            </RadioGroup>
+    <RadioGroup
+        android:id="@+id/radioMazatlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <RadioButton
+        android:id="@+id/telM1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sucursal_1"
+        android:checked="true" />
+        <TextView
+            android:id="@+id/txt_tel1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textColor="#4f17bf"
+            android:text="@string/numero_1" />
+        <RadioButton
+        android:id="@+id/telM2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sucursal_2"
+        android:checked="true" />
+        <TextView
+            android:id="@+id/txt_tel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textColor="#4f17bf"
+            android:text="@string/numero_2" />
+        <RadioButton
+            android:id="@+id/telM3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sucursal_3"
+            android:checked="true" />
+        <TextView
+            android:id="@+id/txt_tel3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textColor="#4f17bf"
+            android:text="@string/numero_3" />
+        <RadioButton
+            android:id="@+id/telM4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sucursal_4"
+            android:checked="true" />
+        <TextView
+            android:id="@+id/txt_tel4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textColor="#4f17bf"
+            android:text="@string/numero_4" />
+        <RadioButton
+            android:id="@+id/telM5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sucursal_5"
+            android:checked="true" />
+        <TextView
+            android:id="@+id/txt_tel5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textColor="#4f17bf"
+            android:text="@string/numero_5" />
+    </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioMochis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <RadioButton
+                    android:id="@+id/tel_mochis1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sucursal_mochis_1"
+                    android:checked="true" />
+                <TextView
+                    android:id="@+id/txt_tel_mochis1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#4f17bf"
+                    android:text="@string/numero_mochis_1" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioRosario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <RadioButton
+                    android:id="@+id/tel_rosario1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sucursal_rosario_1"
+                    android:checked="true" />
+                <TextView
+                    android:id="@+id/txt_tel_rosario1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#4f17bf"
+                    android:text="@string/numero_rosario_1" />
+            </RadioGroup>
+            <RadioGroup
+                android:id="@+id/radioVillaunion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <RadioButton
+                android:id="@+id/tel_villa1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sucursal_villa_1"
+                android:checked="true" />
+                <TextView
+                    android:id="@+id/txt_tel_villa1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+
+                    android:textColor="#4f17bf"
+                    android:text="@string/numero_villa_1" />
+                <RadioButton
+                    android:id="@+id/tel_villa2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sucursal_villa_2"
+                    android:checked="false" />
+                <TextView
+                    android:id="@+id/txt_tel_villa2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#4f17bf"
+                    android:text="@string/numero_villa_2" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_llamar"
+                    android:layout_width="30dp"
+                    android:background="@drawable/boton_redondo2"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boton_llamar"
+                    android:textColor="@color/colorfondo2"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

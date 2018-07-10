@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d60000</color>
+    <color name="colorPrimaryDark">#FF4081</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="colorfondo">#f4cc02</color>
+    <color name="colorfondo2">#ffffff</color>
+    <color name="fondo_eventos">#9b0067</color>
+    <color name="fondo_pasteleria">#da131a</color>
+    <color name="fondo_restaurante">#47ab3a</color>
+    <color name="fondo_historia">#f24f22</color>
+    <color name="fondo_equipo">#4f17bf</color>
+    <color name="fondo_reservar">#f7ff03</color>
+    <color name="texto">#b1b1af</color>
+    <color name="colorRosa">#FF4081</color>
+</resources>

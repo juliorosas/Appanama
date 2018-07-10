@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TODO:  ACCESO GENERAL -->
+    <string name="app_name">Panama</string>
+    <string name="app_slogan">Bakery Panama</string>
+    <string name="app_enviar">Send Message</string>
+
+    <!-- TODO:  ACCESO GENERAL -->
+    <string name="promocion_1">Great Home Service</string>
+    <string name="promocion_2">The best Flavors</string>
+    <string name="promocion_3">Events and Meetings</string>
+    <string name="promocion_4">Bakeryes Panama</string>
+
+    <!-- TODO:  LABEL botones -->
+    <string name="boton_llamar">To call</string>
+    <string name="boton_mapa">See Map</string>
+
+    <!-- TODO:  LABEL  -->
+    <string name="lbl_sucursales">Branch Offices</string>
+    <string name="lbl_salir">Get Out</string>
+    <string name="lbl_gracias">Thank you for choosing us</string>
+
+
+    <!-- TODO:  MENU PRINCIPAL -->
+    <string name="menu_eventos">Events</string>
+    <string name="menu_pasteleria">Cake Shop and Bakeries</string>
+    <string name="menu_restaurante">Restaurant</string>
+    <string name="menu_historia">History</string>
+    <string name="menu_equipo">Our Team</string>
+
+
+</resources>

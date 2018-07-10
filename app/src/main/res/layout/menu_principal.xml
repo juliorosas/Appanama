@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.administrador.appanama.MainActivity">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <fragment
+                android:name="com.example.administrador.appanama.FragmentEventos"
+                android:id="@+id/fragment1"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <fragment
+                android:name="com.example.administrador.appanama.FragmentPasteleria"
+                android:id="@+id/fragment2"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <fragment
+                android:name="com.example.administrador.appanama.FragmentRestaurante"
+                android:id="@+id/fragment3"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".0"
+                android:background="@drawable/boton_redondo"
+                android:text="@string/boton_llamar"
+                android:textColor="@color/colorRosa"
+                android:id="@+id/btn_llamar" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <fragment
+                android:name="com.example.administrador.appanama.FragmentReservar"
+                android:id="@+id/fragment4"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <fragment
+                android:name="com.example.administrador.appanama.FragmentEquipo"
+                android:id="@+id/fragment5"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_redondo"
+                    android:textColor="@color/colorRosa"
+                    android:text="Chat"
+                    android:id="@+id/btn_chat" />
+            </LinearLayout>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<resources>
+    <!-- TODO:  ACCESO GENERAL -->
+    <string name="app_name">Panama</string>
+    <string name="app_slogan">Pastelerías Panama</string>
+    <string name="app_l">Llamar</string>
+    <string name="app_mapa">Ver Mapa</string>
+    <string name="app_enviar">Enviar Mensaje</string>
+
+
+
+    <!-- TODO:  PROMOCIONES -->
+    <string name="promocion_1">Servicio a Domicilio</string>
+    <string name="promocion_2">Los mejores Sabores</string>
+    <string name="promocion_3">Eventos y Reuniones</string>
+    <string name="promocion_4">Pastelerías Panama</string>
+
+    <!-- TODO:  LABEL botones -->
+    <string name="boton_llamar">Llamar</string>
+    <string name="boton_mapa">Ver Mapa</string>
+
+
+
+
+
+
+
+    <!-- TODO:  LABEL  -->
+    <string name="lbl_sucursales">Sucursales</string>
+    <string name="lbl_salir">Salir</string>
+    <string name="lbl_gracias">Gracias por Elegirnos</string>
+
+    <!-- TODO:  TELEFONOS MAZATLAN  -->
+    <string name="sucursal_1">1.AQUILES SERDÁN, Col. Centro.</string>
+    <string name="numero_1">tel:(669) 982-85-08</string>
+    <string name="sucursal_2">2.BELISARIO DOMÍNGUEZ, Col. Centro.</string>
+    <string name="numero_2">tel:(669) 981-65-51</string>
+    <string name="sucursal_3">3.COLOSIO, Fracc. Valle Dorado.</string>
+    <string name="numero_3">tel:(669) 940-09-09</string>
+    <string name="sucursal_4">4.CLOUTHIER, Col. Flores Magón.</string>
+    <string name="numero_4">tel:(669) 980-45-45</string>
+    <string name="sucursal_5">5.JUÁREZ, Col. Benito Juárez.</string>
+    <string name="numero_5">tel:(669) 984-32-66</string>
+    <string name="sucursal_6">6.PLAZA LEY "EL MAR", Fracc. Jacarandas.</string>
+    <string name="numero_6">tel:(669) 986-04-41</string>
+    <string name="sucursal_7">7.CATEDRAL, Col. Centro.</string>
+    <string name="numero_7">tel:(669) 981-77-64</string>
+
+    <!-- TODO:  TELEFONOS MOCHIS  -->
+    <string name="sucursal_mochis_1">1.GABRIEL LEYVA, Col. Centro.</string>
+    <string name="numero_mochis_1">tel:(668) 150-70-09</string>
+
+    <!-- TODO:  TELEFONOS ROSARIO  -->
+    <string name="sucursal_rosario_1">1.EL ROSARIO, Col. Panteón.</string>
+    <string name="numero_rosario_1">tel:(694) 952-18-01</string>
+
+    <!-- TODO:  TELEFONOS VILLA UNION  -->
+    <string name="sucursal_villa_1">1.VILLA UNIÓN, Col. Centro.</string>
+    <string name="numero_villa_1">tel:(669) 967-32-44</string>
+    <string name="sucursal_villa_2">2.VILLA UNIÓN PLAZA, Col. José López Portillo.</string>
+    <string name="numero_villa_2">tel:(669) 967-05-00</string>
+
+    <!-- TODO:  TELEFONOS ESCUINAPA  -->
+    <string name="sucursal_es_1">1.ESCUINAPA, Col. Centro.</string>
+    <string name="numero_es_1">tel:(695) 953-32-40</string>
+
+    <!-- TODO:  TELEFONOS CULIACAN  -->
+    <string name="sucursal_cu_1">1.AMÉRICAS, Col. Villa Universidad.</string>
+    <string name="numero_cu_1">tel:(667) 716-83-53</string>
+    <string name="sucursal_cu_2">2.BARRANCOS, Col. Infonavit Barrancos.</string>
+    <string name="numero_cu_2">tel:(667) 710-71-88</string>
+    <string name="sucursal_cu_3">3.CARRASCO, Col. Centro.</string>
+    <string name="numero_cu_3">tel:(667) 716-43-88</string>
+    <string name="sucursal_cu_4">4.CONSTITUCIÓN, Col. Centro.</string>
+    <string name="numero_cu_4">tel:(667) 712-92-05</string>
+    <string name="sucursal_cu_5">5.CLOUTHIER, Col. Nuevo Culiacán.</string>
+    <string name="numero_cu_5">tel:(667) 714-46-46</string>
+    <string name="sucursal_cu_6">6.FRANCISCO VILLA, Col. Centro.</string>
+    <string name="numero_cu_6">tel:(667) 716-83-50</string>
+    <string name="sucursal_cu_7">7.NAVOLATO, Col. Centro, Navolato, Sin..</string>
+    <string name="numero_cu_7">tel:(672) 721-22-22</string>
+    <string name="sucursal_cu_8">8.PLAZA FIESTA, Col. Centro.</string>
+    <string name="numero_cu_8">tel:(667) 992-08-78</string>
+
+
+
+
+    <!-- TODO:  CIUDADES -->
+    <string name="c_culiacan">Culiacán.</string>
+    <string name="c_escuinapa">Escuinapa.</string>
+    <string name="c_mazatlan">Mazatlán.</string>
+    <string name="c_mochis">Los Mochis.</string>
+    <string name="c_rosario">Rosario.</string>
+    <string name="c_villaunion">Villa Unión.</string>
+
+    <!-- TODO:  MENU PRINCIPAL -->
+    <string name="menu_eventos">Eventos</string>
+    <string name="menu_pasteleria">Pastelería y Repostería</string>
+    <string name="menu_restaurante">Restaurante</string>
+    <string name="menu_historia">Historía</string>
+    <string name="menu_equipo">Nuestro Equipo</string>
+
+    <!-- TODO:  RECURSOS-->
+    <string name="google_android_map_api_key">Map API key</string>
+
+</resources>
